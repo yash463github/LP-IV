@@ -1,0 +1,10 @@
+Column1,Column2,Column3,Column4,Column5,Column6
+Test Case ID,Title,Preconditions,Test Steps,Expected Results,Pass/Fail
+TC-GMAIL-01,Verify login functionality,User has a valid Gmail account,"1. Open Gmail login page. 2. Enter valid email and password. 3. Click ""Next.""",User should be successfully logged in and redirected to the inbox.,Pass
+TC-GMAIL-02,Verify email compose functionality,User is logged into Gmail account,"1. Click on ""Compose"" button. 2. Enter recipient email, subject, and body text. 3. Click ""Send.""","Email should be sent successfully and appear in the ""Sent"" folder.",Pass
+TC-GMAIL-03,Verify email deletion functionality,User is logged into Gmail account,"1. Select an email from the inbox. 2. Click on the ""Delete"" icon.","Email should be moved to the ""Trash"" folder.",Pass
+TC-GMAIL-04,Verify email marking as read/unread,User is logged into Gmail account,"1. Select an unread email. 2. Click on the ""Mark as read"" icon. 3. Select a read email. 4. Click on the ""Mark as unread"" icon.",Email status should toggle between read and unread as per the action performed.,Pass
+TC-GMAIL-05,Verify email archiving functionality,User is logged into Gmail account,"1. Select an email from the inbox. 2. Click on the ""Archive"" icon.","Email should be moved from the inbox to the ""All Mail"" folder.",Pass
+TC-GMAIL-06,Verify email labeling functionality,User is logged into Gmail account,"1. Select an email. 2. Click on the ""Label"" icon. 3. Choose or create a label. 4. Apply the label to the email.",The selected email should be labeled with the chosen label and appear under that label in the sidebar.,Pass
+TC-GMAIL-07,Verify email search functionality,User is logged into Gmail account,"1. Enter a keyword in the search bar. 2. Press ""Enter.""",Search results should display all emails containing the entered keyword  sorted by relevance or date.,Pass
+TC-GMAIL-08,Verify email sorting functionality,User is logged into Gmail account,"1. Click on emails you want sort. 2. Choose different sorting options like ""Primary,"" ""Promotion,"" ""Social"" etc.",Emails should be correctly sorted based on the selected option.,Pass
